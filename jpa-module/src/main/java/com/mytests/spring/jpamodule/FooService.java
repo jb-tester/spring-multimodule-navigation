@@ -8,7 +8,8 @@ import org.springframework.stereotype.Service;
  * *
  */
 
-// navigate to autowired candidates should navogate to the `app-module` controller
+// navigate to autowired candidates should navigate to the `app-module` controller,
+// but doesn't work
 @Service
 public class FooService {
 

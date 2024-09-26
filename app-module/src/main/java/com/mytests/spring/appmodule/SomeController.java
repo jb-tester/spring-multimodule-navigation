@@ -23,7 +23,9 @@ public class SomeController {
     private final BarComponent barComponent;
 
     // navigation to injected beans are ok
-    public SomeController(FooEntityRepository repository, FooService fooService, Optional<BarComponent> barComponent) {
+    public SomeController(FooEntityRepository repository,
+                          FooService fooService,
+                          Optional<BarComponent> barComponent) {
         this.repository = repository;
         this.fooService = fooService;
         this.barComponent = barComponent.orElse(new BarComponent());
