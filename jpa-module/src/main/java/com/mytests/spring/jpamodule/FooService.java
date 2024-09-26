@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
  * <p>Created by irina on 9/26/2024.</p>
  * *
  */
+
+// navigate to autowired candidates should navogate to the `app-module` controller
 @Service
 public class FooService {
 
